@@ -393,15 +393,15 @@ class XLightL3(XLightL1):
         "Magic Back": {
             "switch": "on",
             "mode": 8,
-            "speed08": 50,
-            "bright08": 100,
+            "speed08": 1,
+            "bright08": 10,
             "light_type": 1,
         },
         "7 Color Wave": {
             "switch": "on",
             "mode": 35,
-            "speed35": 50,
-            "bright35": 100,
+            "speed35": 1,
+            "bright35": 10,
             "light_type": 1,
         },
         "7 Color Wave Back": {
