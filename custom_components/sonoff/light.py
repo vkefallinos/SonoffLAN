@@ -379,22 +379,22 @@ class XLightL3(XLightL1):
         "Warm White": {
             "switch": "on",
             "mode": 2,
-            "speed07": 50,
-            "bright07": 100,
+            "speed07": (self.transition/300)/100,
+            "bright07": self.brightness,
             "light_type": 1,
         },
         "Magic Forward": {
             "switch": "on",
             "mode": 7,
-            "speed07": 50,
-            "bright07": 100,
+            "speed07": (self.transition/300)/100,
+            "bright07": self.brightness,
             "light_type": 1,
         },
         "Magic Back": {
             "switch": "on",
             "mode": 8,
-            "speed08": 1,
-            "bright08": 10,
+            "speed08": (self.transition/300)/100,
+            "bright08": self.brightness,
             "light_type": 1,
         },
         "7 Color Wave": {
